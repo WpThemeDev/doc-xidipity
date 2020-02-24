@@ -1,0 +1,90 @@
+<p class="dsp:none">
+    <!--
+    * WordPress Xidipity(.com) HTML File
+    *
+    * Page Title:   (Template Editor)
+    * Slug:         tmpl-editor.html
+    * Path:         tools/
+    * Copyright     2019-2020 John Baer
+    * GitHub:       https://github.com/WpThemeDev/xidipity.com/
+    * Build:        200226
+    * License URI:  http://www.gnu.org/licenses/gpl-3.0.txt
+    *
+-->
+</p>
+<!-- xwpt: 200208/tmpl/embedded/script      -->
+<div class="web[dsp:none] bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small pad:+0.75 wd:100%">
+    <div class="fx:c sm)fx:r fxa:1 fxb:1 fxc:1">
+        <div class="fxd:1 fxe:4 aln:text-center mar:right+1 pad:hrz+1">
+            <p class="fnt:size-3x-large fg:wcag-grey6 pad:hrz+0.25"><i class="fab fa-java">&#x200B;</i></p>
+            <p class="fnt:size-x-small mar:top+0.5 fg:wcag-grey9">200208</p>
+        </div>
+        <div class="fxd:1 fxe:4">
+            <h3 class="fnt:weight-bolder">Embedded Script</h3>
+            <p class="fnt:weight-bolder">CodeMirror CSS</p>
+        </div>
+    </div>
+</div>
+<div class="mce[dsp:none]">
+<style>
+@import url("https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/codemirror.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/dialog/dialog.min.css");
+</style>    
+</div>
+<!-- /xwpt: 200208/tmpl/embedded/script     -->
+<p><span class="fnt:weight-normal pad:right+0.5">Description:</span>Xidipity Template Editor</p>
+<p>&nbsp;</p>
+<form>
+<textarea id="mySandbox" name="mySandbox" placeholder="Sandbox - paste template code here."></textarea>
+</form>
+<div class="prt[dsp:none]">
+    <p class="fnt:weight-normal">Related Topics</p>
+    <div style="overflow: auto; white-space: nowrap;">
+        <ul class="fnt:size-small li:qtr-spaced">
+            <li>“Xidipity WordPress Blog.” Xidipity, xidipity.com/.</li>
+            <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/advance-framework/overview/.</li>
+            <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/palette-framework/overview/.</li>
+        </ul>
+    </div>
+    <p>&nbsp;</p>
+</div>
+<!-- xwpt: 200208/tmpl/embedded/script      -->
+<div class="web[dsp:none] bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small pad:+0.75 wd:100%">
+    <div class="fx:c sm)fx:r fxa:1 fxb:1 fxc:1">
+        <div class="fxd:1 fxe:4 aln:text-center mar:right+1 pad:hrz+1">
+            <p class="fnt:size-3x-large fg:wcag-grey6 pad:hrz+0.25"><i class="fab fa-java">&#x200B;</i></p>
+            <p class="fnt:size-x-small mar:top+0.5 fg:wcag-grey9">200208</p>
+        </div>
+        <div class="fxd:1 fxe:4">
+            <h3 class="fnt:weight-bolder">Embedded Script</h3>
+            <p class="fnt:weight-bolder">CodeMirror Script</p>
+        </div>
+    </div>
+</div>
+<div class="mce[dsp:none] web[dsp:none]">
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/codemirror.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/display/placeholder.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/selection/active-line.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/xml/xml.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/css/css.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/javascript/javascript.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/htmlmixed/htmlmixed.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/dialog/dialog.min.js'></script>
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/search/search.min.js'></script>
+<script type='text/javascript'>
+CodeMirror.keyMap.default["Shift-Tab"] = "indentLess";
+CodeMirror.keyMap.default["Tab"] = "indentMore";
+var editor = CodeMirror.fromTextArea(mySandbox, {
+mode: "text/html",
+lineNumbers: true,
+styleActiveLine: true,
+tabSize: 2,
+autofocus: true,
+lineWrapping: false,
+});
+window.addEventListener("beforeunload", function(event) {
+event.preventDefault();
+event.returnValue = '';
+});
+</script>
+</div>
