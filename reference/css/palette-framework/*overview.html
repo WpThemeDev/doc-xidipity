@@ -1,0 +1,160 @@
+<p class="dsp:none"><!--
+    *
+    * WordPress Xidipity HTML File
+    *
+    *   Page Title: *overview
+    *   Path:       reference/css/palette-framework/
+    *   File:       *overview.html
+    *   GitHub:     WpThemeDev/doc-xidipity/
+    *   Build:      v12-2020-02-29-01
+    *   License:    www.gnu.org/licenses/gpl-3.0.html
+    *   Copyright:  2019-2020 John Baer
+    *
+--></p>
+<h2>Palette Classes</h2>
+<p>&nbsp;</p>
+<p class="aln:text-center fnt:family-mono fnt:size-small sm)fnt:size-large">media)property:value!event</p>
+<h2>media</h2>
+<p>Within the web environment content needs to be flexible and format itself appropriately to the device of the user. This is referred to a responsiveness.  Xidipity is fully responsive and uses a design language which supports mobile first. In addition, Xidipity supports all other screens dimensions under the pseudonym "sm" which means standard media.</p>
+<p>&nbsp;</p>
+<h2>property</h2>
+<p>This refers to the property of the HTML element you want to style. In the example below "text-align" and "color" are properties of the HTML paragraph element "&lt;p&gt;".</p>
+<p>&nbsp;</p>
+<pre>p {<br />  text-align: center;<br />  color: red;<br />}</pre>
+<p>&nbsp;</p>
+<h2>value</h2>
+<p>The property's value is the <abbr>css</abbr> style to be applied. In the example above, the property value "center" instructs the browser to "text-align" center. Classes are often composed of multiple properties.</p>
+<p>&nbsp;</p>
+<h2>events</h2>
+<p>Xidipity recognizes the "hover" and "focus" events. Styling can be targeted to an event such as changing the background color when the cursor moves over the element.</p>
+<p>&nbsp;</p>
+<h2>properties</h2>
+<p>&nbsp;</p>
+<ol class="li:qtr-spaced">
+    <li>fg - foreground (text) color</li>
+    <li>bg - background color</li>
+    <li>bdr - border color</li>
+</ol>
+<p>&nbsp;</p>
+<h2>property values</h2>
+<p>&nbsp;</p>
+<ul class="mixed li:qtr-spaced">
+    <li>base
+        <ul>
+            <li>shade 050</li>
+            <li>shade 100</li>
+            <li>shade 200</li>
+            <li>shade 300</li>
+            <li>shade 400</li>
+            <li>shade 500</li>
+            <li>shade 600</li>
+            <li>shade 700</li>
+            <li>shade 800</li>
+            <li>shade 900</li>
+        </ul>
+    </li>
+    <li>primary
+        <ul>
+            <li>bright</li>
+            <li>standard</li>
+            <li>dark</li>
+        </ul>
+    </li>
+    <li>secondary
+        <ul>
+            <li>bright</li>
+            <li>standard</li>
+            <li>dark</li>
+        </ul>   
+    </li>
+    <li>google
+        <ul>
+            <li>amber</li>
+            <li>blue-grey</li>
+            <li>blue</li>
+            <li>brown</li>
+            <li>cyan</li>
+            <li>deep-orange</li>
+            <li>deep-purple</li>
+            <li>green</li>
+            <li>grey</li>
+            <li>indigo</li>
+            <li>light-blue</li>
+            <li>light-green</li>
+            <li>lime</li>
+            <li>orange</li>
+            <li>pink</li>
+            <li>purple</li>
+            <li>red</li>
+            <li>teal</li>
+            <li>yellow</li>
+        </ul>   
+    </li>
+    <li>wcag
+        <ul>
+            <li>grey9</li>
+            <li>grey8</li>
+            <li>grey8</li>
+            <li>grey7</li>
+            <li>grey6</li>
+            <li>red</li>
+            <li>deep-purple</li>
+            <li>blue</li>
+            <li>green</li>
+            <li>deep-orange</li>
+            <li>blue-grey</li>
+        </ul>
+    </li>
+</ul>
+<p>&nbsp;</p>
+<h2>palette rules</h2>
+<ul>
+    <li>a property may have a media prefix</li>
+    <li>a property <span class="fnt:weight-normal wcag:orange" style="text-decoration: underline;">must</span> have a value declaration suffix</li>
+    <li>a property value may have an event suffix</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Examples</h2>
+<table class="cols:fixed bdr:space+0.25">
+    <thead class="fnt:size-small sm)fnt:size-medium">
+        <tr>
+            <th class="aln:text-left grd:tint-bright wd:15">Class</th>
+            <th class="aln:text-left grd:tint-bright" style="width:39rem">Function</th>
+        </tr>
+    </thead>
+    <tbody class="fnt:family-mono fnt:size-x-small sm)fnt:size-small">
+    <tbody>
+        <tr>
+            <td>bg:bas-300</td>
+            <td>Set the background color of all devices to a grey hue, shade 300</td>
+        </tr>
+        <tr>
+            <td>fg:pri</td>
+            <td>Set the foreground color of all devices to the primary standard hue</td>
+        </tr>
+        <tr>
+            <td>sm)fg:bas-800</td>
+            <td>Set the foreground color of standard media devices to the base hue, shade 800</td>
+        </tr>
+        <tr>
+            <td>bg:sec!hover</td>
+            <td>Set the background color of all media devices to the secondary standard hue during the hover event</td>
+        </tr>
+        <tr>
+            <td>bdr:green</td>
+            <td>Set the border color of all media devices to the google green hue</td>
+        </tr>
+    </tbody>
+</table>
+<p>&nbsp;</p>
+<div class="prt[dsp:none]">
+    <p class="fnt:weight-normal">Related Topics</p>
+    <ul class="fnt:size-small">
+        <li>“Xidipity WordPress Blog.” Xidipity, xidipity.com/.</li>
+        <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/advance-framework/overview/.</li>
+        <li>“Theme Variables.” Xidipity Web Docs, doc.xidipity.com/reference/css/theme-variables/.</li>
+        <li>“CSS basics.” MDN Web Docs, developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics.</li>
+        <li>“HTML element.” MDN Web Docs, developer.mozilla.org/en-US/docs/Glossary/HTML.</li>
+    </ul>
+    <p>&nbsp;</p>
+</div>
