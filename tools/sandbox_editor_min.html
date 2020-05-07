@@ -1,0 +1,78 @@
+<p class="dsp:none">/* git:tools/sandbox_editor_min.html */</p>
+<!--  tmpl:EMBEDDED/SCRIPT -->
+<div class="bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small dsp:tbl mar:vrt+0.5 wd:100% web[dsp:none]">
+    <div class="dsp:tbl-rw-grp pad:+0.75 wd:100%">
+        <div class="dsp:tbl-rw">
+            <div class="aln:text-center bas:tint+1 dsp:tbl-td pad:vrt+0.5 wd:5">
+                <div class="fnt:size-3x-large"><i class="fas fa-file-signature">&#8203;</i></div>
+                <div class=" fg:wcag-grey9 fnt:size-x-small">22200508</div>
+            </div>
+            <div class="aln:middle dsp:tbl-td pad:left+1 pad:vrt+0.5">
+                <div class="fnt:weight-bolder fnt:size-larger sm)fnt:size-x-large">Script Template</div>
+                <div class="fnt:weight-bolder">CodeMirror CSS</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mar:bottom+0.5 mce[dsp:none]">
+    <style>
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/codemirror.css");
+        @import url("https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/dialog/dialog.min.css");
+        .seo-pag-breadcrumbs { display: none; }
+    </style>    
+</div>
+<!-- /tmpl:EMBEDDED/SCRIPT -->
+<form>
+<textarea id="mySandbox" name="mySandbox" placeholder="Sandbox - paste template code here."></textarea>
+</form>
+<div class="mar:top+0.5 prt[dsp:none]">
+    <p class="fnt:weight-normal">Related Topics</p>
+    <ul class="fnt:size-small li:qtr-spaced">
+        <li>“Xidipity WordPress Blog.” Xidipity, xidipity.com/.</li>
+        <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/advance-framework/overview/.</li>
+        <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/palette-framework/overview/.</li>
+    </ul>
+</div>
+<!--  tmpl:EMBEDDED/SCRIPT -->
+<div class="bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small dsp:tbl mar:vrt+0.5 wd:100% web[dsp:none]">
+    <div class="dsp:tbl-rw-grp pad:+0.75 wd:100%">
+        <div class="dsp:tbl-rw">
+            <div class="aln:text-center bas:tint+1 dsp:tbl-td pad:vrt+0.5 wd:5">
+                <div class="fnt:size-3x-large"><i class="fas fa-file-signature">&#8203;</i></div>
+                <div class=" fg:wcag-grey9 fnt:size-x-small">22200508</div>
+            </div>
+            <div class="aln:middle dsp:tbl-td pad:left+1 pad:vrt+0.5">
+                <div class="fnt:weight-bolder fnt:size-larger sm)fnt:size-x-large">Script Template</div>
+                <div class="fnt:weight-bolder">CodeMirror Script</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mce[dsp:none] web[dsp:none]">
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/codemirror.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/display/placeholder.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/selection/active-line.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/xml/xml.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/css/css.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/javascript/javascript.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/mode/htmlmixed/htmlmixed.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/dialog/dialog.min.js'></script>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.48.0/addon/search/search.min.js'></script>
+    <script type='text/javascript'>
+    CodeMirror.keyMap.default["Shift-Tab"] = "indentLess";
+    CodeMirror.keyMap.default["Tab"] = "indentMore";
+    var editor = CodeMirror.fromTextArea(mySandbox, {
+    mode: "text/html",
+    lineNumbers: true,
+    styleActiveLine: true,
+    tabSize: 2,
+    autofocus: true,
+    lineWrapping: false,
+    });
+    window.addEventListener("beforeunload", function(event) {
+    event.preventDefault();
+    event.returnValue = '';
+    });
+    </script>
+</div>
+<!-- /tmpl:EMBEDDED/SCRIPT -->
