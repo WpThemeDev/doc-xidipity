@@ -1,0 +1,200 @@
+<aside class="dsp:none">
+    *
+    * ------------------- DO NOT INCLUDE -------------------
+    *
+    * WordPress Xidipity Theme HTML File
+    *
+    * Page.....: list categories
+    * Source...: list_categories.html
+    * Path.....: template/
+    * GitHub...: WpThemeDev/doc-xidipity/
+    * Build....: 22.2020.05.08
+    * License..: gnu.org/licenses/gpl-3.0.html
+    * Copyright: 2019-2020 John Baer
+    *
+    * ------------------- DO NOT INCLUDE -------------------
+    *
+</aside>
+<h5 class="mar:bottom+1.25">editor view</h5>
+<!--  tmpl:CAT/LIST -->
+<div class="bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small dsp:tbl mar:vrt+0.5 wd:100%">
+    <div class="dsp:tbl-rw-grp pad:+0.75 wd:100%">
+        <div class="dsp:tbl-rw">
+            <div class="aln:text-center bas:tint+1 dsp:tbl-td pad:vrt+0.5 wd:5">
+                <div class="fnt:size-3x-large"><i class="fas fa-file-signature">&#8203;</i></div>
+                <div class=" fg:wcag-grey9 fnt:size-x-small">19200501</div>
+            </div>
+            <div class="aln:middle dsp:tbl-td pad:left+1 pad:vrt+0.5">
+                <div class="fnt:weight-bolder fnt:size-larger sm)fnt:size-x-large">Category List Template</div>
+                <div class="fnt:weight-bolder">Template Options</div>
+                <ul class="fg:wcag-grey9 fnt:family-mono fnt:size-smaller">
+                    <li>class = 'li:qtr-spaced'</li>
+                    <li>bullet = '&lt;i class="far fa-file-alt"&gt;&lt;/i&gt;'</li>
+                    <li>depth = 0</li>
+                    <li>active = 'n'</li>
+                </ul>
+                <p class="fnt:weight-bolder mar:top+0.25">Category(s)</p>
+                <ul class="fg:wcag-grey9 fnt:family-mono fnt:size-smaller fnt:weight-lighter">
+                    <li>Gallery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /tmpl:CAT/LIST -->
+<h5 class="mar:vrt+1.25">web view</h5>
+<!--  tmpl:CAT/LIST -->
+<div class="bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small dsp:tbl mar:vrt+0.5 wd:100% web[dsp:none]">
+    <div class="dsp:tbl-rw-grp pad:+0.75 wd:100%">
+        <div class="dsp:tbl-rw">
+            <div class="aln:text-center bas:tint+1 dsp:tbl-td pad:vrt+0.5 wd:5">
+                <div class="fnt:size-3x-large"><i class="fas fa-file-signature">&#8203;</i></div>
+                <div class=" fg:wcag-grey9 fnt:size-x-small">19200501</div>
+            </div>
+            <div class="aln:middle dsp:tbl-td pad:left+1 pad:vrt+0.5">
+                <div class="fnt:weight-bolder fnt:size-larger sm)fnt:size-x-large">Category List Template</div>
+                <div class="fnt:weight-bolder">Template Options</div>
+                <ul class="fg:wcag-grey9 fnt:family-mono fnt:size-smaller">
+                    <li>class = 'li:qtr-spaced'</li>
+                    <li>bullet = '&lt;i class="far fa-file-alt"&gt;&lt;/i&gt;'</li>
+                    <li>depth = 0</li>
+                    <li>active = 'n'</li>
+                </ul>
+                <p class="fnt:weight-bolder mar:top+0.25">Category(s)</p>
+                <ul class="fg:wcag-grey9 fnt:family-mono fnt:size-smaller fnt:weight-lighter">
+                    <li>Gallery</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mar:bottom+0.5 mce[dsp:none]">
+    [clst class='li:qtr-spaced' bullet='<i class="far fa-file-alt"></i>' depth=0 active = 'n']Gallery[/clst]
+</div>
+<!-- /tmpl:CAT/LIST -->
+<h5 class="mar:vrt+1.25">template</h5>
+<div class="dsp:none sm)dsp:block">
+<pre>
+&lt;!--  tmpl:CAT/LIST --&gt;
+&lt;div class="bg:bas-050 bdr:solid-thick bdr:bas-300 cnr:arch-small dsp:tbl mar:vrt+0.5 wd:100% web[dsp:none]"&gt;
+    &lt;div class="dsp:tbl-rw-grp pad:+0.75 wd:100%"&gt;
+        &lt;div class="dsp:tbl-rw"&gt;
+            &lt;div class="aln:text-center bas:tint+1 dsp:tbl-td pad:vrt+0.5 wd:5"&gt;
+                &lt;div class="fnt:size-3x-large"&gt;&lt;i class="fas fa-file-signature"&gt;&amp;#8203;&lt;/i&gt;&lt;/div&gt;
+                &lt;div class=" fg:wcag-grey9 fnt:size-x-small"&gt;19200501&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="aln:middle dsp:tbl-td pad:left+1 pad:vrt+0.5"&gt;
+                &lt;div class="fnt:weight-bolder fnt:size-larger sm)fnt:size-x-large"&gt;Category List Template&lt;/div&gt;
+                &lt;div class="fnt:weight-bolder"&gt;Template Options&lt;/div&gt;
+                &lt;ul class="fg:wcag-grey9 fnt:family-mono fnt:size-smaller"&gt;
+                    &lt;li&gt;class  = ' <samp>#CLASS#</samp> '&lt;/li&gt;
+                    &lt;li&gt;bullet = ' <samp>#BULLET#</samp> '&lt;/li&gt;
+                    &lt;li&gt;depth  =   <samp>#DEPTH#</samp> &lt;/li&gt;
+                    &lt;li&gt;active = ' <samp>#ACTIVE#</samp> '&lt;/li&gt;
+                &lt;/ul&gt;
+                &lt;p class="fnt:weight-bolder mar:top+0.25"&gt;Category(s)&lt;/p&gt;
+                &lt;ul class="fg:wcag-grey9 fnt:family-mono fnt:size-smaller fnt:weight-lighter"&gt;
+                    &lt;li&gt; <samp>#CATEGORY#</samp> &lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="mar:bottom+0.5 mce[dsp:none]"&gt;
+    [[clst class=' <samp>#CLASS#</samp> ' bullet=' <samp>#BULLET#</samp> ' depth= <samp>#DEPTH#</samp> active = ' <samp>#ACTIVE#</samp> '] <samp>#CATEGORY#</samp> [/clst]]
+&lt;/div&gt;
+&lt;!-- /tmpl:CAT/LIST --&gt;
+</pre>
+    <div class="aln:text-center fg:wcag-grey6 fnt:size-x-small md)dsp:none sm)fnt:size-small mar:bottom+1 mar:top-0.75 wd:100%">
+        <i class="fas fa-caret-left">&#8203;</i><span class="pad:hrz+0.5">scroll</span><i class="fas fa-caret-right">&#8203;</i>
+    </div>
+</div>
+<div class="dsp:none sm)dsp:block">
+    <h3 class="mar:vrt+1.25">template markers</h3>
+    <table class="bdr:collapse bas:bas-050 bdr:solid-thick bdr:bas-300 bdr:space+0.125 cols:auto cnr:arch-small wd:100%">
+        <thead class="bas:tint+1 fnt:weight-bolder">
+            <tr>
+                <td class="wd:6 md)wd:7 pad:+0.50">Marker</td>
+                <td class="pad:+0.50">Description</td>
+            </tr>
+        </thead>
+        <tbody class="aln:top bg:content fnt:size-smaller">
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">#CLASS#</td>
+                <td class="pad:+0.50">List class.</td>
+            </tr>
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">&nbsp;</td>
+                <td class="pad:+0.50">
+                    <p>Typical options include:</p>
+                    <ul class="no-bullets">
+                        <li><span class="aln:text-left dsp:inline-block wd:6">no-bullets</span>= no bullets</li>
+                        <li><span class="aln:text-left dsp:inline-block wd:6">li:qtr-spaced</span>= quarter space list items</li>
+                        <li><span class="aln:text-left dsp:inline-block wd:6">li:dbl-spaced</span>= double space list items</li>
+                        <li><span class="aln:text-left dsp:inline-block wd:6">li:tpl-spaced</span>= triple space list items</li>
+                        <li><span class="aln:text-left dsp:inline-block wd:6">other</span>= background hue, top and bottom margins, etc</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">#BULLET#</td>
+                <td class="pad:+0.50">Optional font awesome icon.</td>
+            </tr>
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">#DEPTH#</td>
+                <td class="pad:+0.50">Optional hierarchical depth. "0" for all.</td>
+            </tr>
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">#ACTIVE#</td>
+                <td class="pad:+0.50">Only show categories which have posts assigned to them.</td>
+            </tr>
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">#CATEGORY#</td>
+                <td class="pad:+0.50">
+                    <p>Beginning category and/or category(s) to exclude. For example, assuming the following category hierarchy:</p>
+                    <ul>
+                        <li>Paper Backs
+                            <ul>
+                                <li>Science Fiction</li>
+                                <li>Biographies</li>
+                                <li>Romance</li>
+                                <li>Travel</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>To show a category list beginning at "Paper Backs" that exclude "Romance" would be executed by "Paper Backs,-Romance". Although there can only be one starting point, there can be multiple exclusions.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="fnt:weight-bolder pad:+0.50">&nbsp;</td>
+                <td class="fg:wcag-grey6 fnt:size-x-small pad:+0.50"><span class="pad:right+0.5"><i class="fas fa-asterisk">&#8203;</i></span>Multiple categories should be separated by a comma.</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="sm)dsp:none txt:frame">
+    <p class="aln:text-center"><span class="pad:right+0.5"><i class="fas fa-file-signature">&#8203;</i></span>The template code is available for viewing on a larger display.</p>
+</div>
+<!--  tmpl:ANNOTATION -->
+<table class="bdr:collapse bdr:hidden cols:auto mar:vrt+1.25 wd:100%">
+    <tbody>
+        <tr>
+            <td class="aln:middle bg:wcag-grey9 cnr:arch-left-small fnt:size-large fg:wht pad:hrz+0.75">
+                <i class="fas fa-user">&#8203;</i>
+            </td>
+            <td class="aln:text-left aln:middle bas:tint+1 cnr:arch-right-small fnt:size-smaller pad:vrt+0.5 wd:100%">
+                Template must be configured before use.
+            </td>
+        </tr>
+    </tbody>
+</table>
+<!-- /tmpl:ANNOTATION -->
+<div class="prt[dsp:none]">
+    <p class="fnt:weight-normal">Related Topics</p>
+    <ul class="fnt:size-small">
+            <li>“Xidipity WordPress Blog.” Xidipity, xidipity.com/.</li>
+            <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/advance-framework/overview/.</li>
+            <li>“*Overview.” Xidipity Web Docs, doc.xidipity.com/reference/css/palette-framework/overview/.</li>
+            <li>“Installation.” Xidipity Web Docs, doc.xidipity.com/guides/installation/early-bound-template/.</li>
+    </ul>
+</div>
