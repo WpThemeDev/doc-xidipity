@@ -79,11 +79,12 @@
     CodeMirror.keyMap.default["Tab"] = "indentMore";
     var editor = CodeMirror.fromTextArea(mySandbox, {
     mode: "text/html",
+    indentUnit: 4,
+    indentWithTabs: false,    
     lineNumbers: true,
     styleActiveLine: true,
-    tabSize: 2,
     autofocus: true,
-    lineWrapping: false,
+    lineWrapping: true,
     });
     window.addEventListener("beforeunload", function(event) {
     event.preventDefault();
